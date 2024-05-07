@@ -1,0 +1,204 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7b658738736f7b9ff0a2cafb490f2da8",
+    "packages": [
+        {
+            "name": "primakurzy/responsivefilemanager",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PrimaKurzy-cz/responsivefilemanager.git",
+                "reference": "ccff78e069e4418dbf2f8b71145d93a7fdfc13e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PrimaKurzy-cz/responsivefilemanager/zipball/ccff78e069e4418dbf2f8b71145d93a7fdfc13e5",
+                "reference": "ccff78e069e4418dbf2f8b71145d93a7fdfc13e5",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josef Kyrian / PrimaKurzy.cz",
+                    "email": "josef.kyrian@primakurzy.cz"
+                }
+            ],
+            "description": "Responsive FileManager for TinyMCE and CKEditor (For Educational Purposes Only)",
+            "support": {
+                "issues": "https://github.com/PrimaKurzy-cz/responsivefilemanager/issues",
+                "source": "https://github.com/PrimaKurzy-cz/responsivefilemanager/tree/v2.0"
+            },
+            "time": "2023-02-25T12:26:45+00:00"
+        },
+        {
+            "name": "primakurzy/shortcode",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PrimaKurzy-cz/shortcode.git",
+                "reference": "0148ffb2448366b3871d6930b5c308220200fd1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PrimaKurzy-cz/shortcode/zipball/0148ffb2448366b3871d6930b5c308220200fd1e",
+                "reference": "0148ffb2448366b3871d6930b5c308220200fd1e",
+                "shasum": ""
+            },
+            "require": {
+                "thunderer/shortcode": ">=0.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "primakurzy\\Shortcode\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josef Kyrian / PrimaKurzy.cz",
+                    "email": "josef.kyrian@primakurzy.cz"
+                }
+            ],
+            "description": "For Educational Purposes Only",
+            "support": {
+                "issues": "https://github.com/PrimaKurzy-cz/shortcode/issues",
+                "source": "https://github.com/PrimaKurzy-cz/shortcode/tree/v1.0"
+            },
+            "time": "2022-06-01T07:32:42+00:00"
+        },
+        {
+            "name": "thunderer/shortcode",
+            "version": "v0.7.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thunderer/Shortcode.git",
+                "reference": "a4fee30613bd46efb421f8305aff0466a3268a99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thunderer/Shortcode/zipball/a4fee30613bd46efb421f8305aff0466a3268a99",
+                "reference": "a4fee30613bd46efb421f8305aff0466a3268a99",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.1",
+                "symfony/yaml": ">=2.0"
+            },
+            "suggest": {
+                "ext-dom": "if you want to use XML serializer",
+                "ext-json": "if you want to use JSON serializer",
+                "symfony/yaml": "if you want to use YAML serializer"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Thunder\\Shortcode\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tomasz Kowalczyk",
+                    "email": "tomasz@kowalczyk.cc"
+                }
+            ],
+            "description": "Advanced shortcode (BBCode) parser and engine for PHP",
+            "keywords": [
+                "bbcode",
+                "engine",
+                "library",
+                "parser",
+                "shortcode"
+            ],
+            "support": {
+                "issues": "https://github.com/thunderer/Shortcode/issues",
+                "source": "https://github.com/thunderer/Shortcode/tree/v0.7.5"
+            },
+            "time": "2022-01-13T18:53:33+00:00"
+        },
+        {
+            "name": "tinymce/tinymce",
+            "version": "5.10.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tinymce/tinymce-dist.git",
+                "reference": "e5650a256f8941a0593ec0b9d3c435f20f1d4245"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/e5650a256f8941a0593ec0b9d3c435f20f1d4245",
+                "reference": "e5650a256f8941a0593ec0b9d3c435f20f1d4245",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "tinymce.js",
+                        "plugins/*/plugin.js",
+                        "themes/*/theme.js",
+                        "themes/*/icons.js"
+                    ],
+                    "files": [
+                        "tinymce.min.js",
+                        "plugins/*/plugin.min.js",
+                        "themes/*/theme.min.js",
+                        "skins/**",
+                        "icons/*/icons.min.js"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-only"
+            ],
+            "description": "Web based JavaScript HTML WYSIWYG editor control.",
+            "homepage": "https://www.tiny.cloud/",
+            "keywords": [
+                "contenteditable",
+                "editing",
+                "html",
+                "javascript",
+                "rich editor",
+                "rich text",
+                "rich text editor",
+                "richtext",
+                "rte",
+                "text",
+                "tinymce",
+                "wysiwyg"
+            ],
+            "support": {
+                "source": "https://github.com/tinymce/tinymce-dist/tree/5.10.9"
+            },
+            "time": "2023-11-15T00:42:08+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
